@@ -9,9 +9,15 @@
 ## Development Tools
 
 * Unreal Engine 4.25.3 \(Epic\)
-* Wwise 2019.2.6.7381
+* Wwise 2019.2.6.7381 \(Audiokinetic\)
 
+## Branches
 
+* main: the primary deployable branch of the project
+* master: documentation branch to be merged into main as needed
+* project-core: branch for assembling and modifying the Unreal Engine 4 Project core and its integrations
+* dev: primary development branch of the acoustic modeling and raycasting 
+* audio-design\_programming: audio design and programming branch within Wwise authoring tool for any audio exclusive programming/design
 
 ## Research Topics
 
