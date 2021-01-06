@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Acoustic-Modelling-of-Virtual-Reality-Game-Environments](README.md)
+* [Acoustic-Modeling-of-Virtual-Reality-Game-Environments](README.md)
 * [Abstract](abstract.md)
 
 ## Research
