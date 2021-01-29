@@ -4,12 +4,14 @@
 
 ### Author: Andrew Littleton
 
-### Most Recent Update: 01/04/2021
+### Most Recent Update: 01/28/2021
 
 ## Development Tools
 
 * Unreal Engine 4.25.3 \(Epic\)
 * Wwise 2019.2.6.7381 \(Audiokinetic\)
+* C++
+* Visual Studio 2019
 
 ## Branches
 
