@@ -6,6 +6,12 @@ Using the Wwise SDK developed by Audiokinetic, information passed in by the audi
 
 The purpose of this plugin is to give game engine designers the ability to accurately model a space acoustically, for video games or other applications. It will also be used to allow audio designers to adjust acoustic spaces as necessary to create more immersive or specifically crafted experiences for players.
 
+### Wwise SDK and Unreal Engine GameObjects/Geometry
+
+The Wwise SDK will be used for plugin development using the Wwise Audio Engine. The plugin will be used as the medium between the physical environment of the game engine and the audio engine. It will render data given in timed windows based on geometric data provided by the Unreal Engine's physical models and audio design information provided by Wwise. Auxiliary bus volumes will be used to define the boundaries of the acoustic space and the UE4 actors with collisions enabled will be the reflection objects or sources. The UE4 in-engine camera will be the listener. 
+
+UE4 is the primary engine the Wwise plugin will be tested and deployed in. The Unreal Engine will handle graphics processing, environment design, and the Wwise integration itself. Virtual Reality building and the preview will also be deployed through the engine. While the plugin and Wwise will handle all audio-related processing and calculations, information from the engine's geometry data and any other game engine related parameters that are required. 
+
 ## Acoustic Calculations and Modeling Techniques
 
 The core of this project is the ability for accurate acoustic calculations to be taken about any given sound source and receiver as well as the manipulation of the acoustic environment. There are many different factors that go into realistic acoustic definitions of any given space. The primary variables addressed in this project will be:
