@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UE4_AMVRGE",
+			"Path": "D:\\Users\\Mordecai\\Dev\\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\\UE4_AMVRGE\\Source\\UE4_AMVRGE.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UE4_AMVRGEEditor",
+			"Path": "D:\\Users\\Mordecai\\Dev\\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\\UE4_AMVRGE\\Source\\UE4_AMVRGEEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

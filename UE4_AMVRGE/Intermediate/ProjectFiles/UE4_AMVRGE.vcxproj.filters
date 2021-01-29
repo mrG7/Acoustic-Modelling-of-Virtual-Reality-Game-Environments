@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UE4_AMVRGE.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A20FF44E-703A-4DB0-9E31-47CE2BA0DB82}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UE4_AMVRGE.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UE4_AMVRGEEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{64D5BACE-4CCF-4D02-8E0B-624D9E01D501}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UE4_AMVRGE">
+      <UniqueIdentifier>{F00E9F6B-77B6-4BA8-8B5E-644C1EFB9148}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UE4_AMVRGE\UE4_AMVRGE.Build.cs">
+      <Filter>Source\UE4_AMVRGE</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UE4_AMVRGE\UE4_AMVRGE.cpp">
+      <Filter>Source\UE4_AMVRGE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_AMVRGE\UE4_AMVRGE.h">
+      <Filter>Source\UE4_AMVRGE</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4_AMVRGE\UE4_AMVRGEGameModeBase.cpp">
+      <Filter>Source\UE4_AMVRGE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_AMVRGE\UE4_AMVRGEGameModeBase.h">
+      <Filter>Source\UE4_AMVRGE</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Users\\Mordecai\\Dev\\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\\UE4_AMVRGE\\Source\\UE4_AMVRGE\\UE4_AMVRGE.Build.cs",
+		"D:\\Users\\Mordecai\\Dev\\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\\UE4_AMVRGE\\Source\\UE4_AMVRGE.Target.cs",
+		"D:\\Users\\Mordecai\\Dev\\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\\UE4_AMVRGE\\Source\\UE4_AMVRGEEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}
