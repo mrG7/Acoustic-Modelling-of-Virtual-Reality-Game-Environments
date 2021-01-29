@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UE4_AMVRGE.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Users\Mordecai\Dev\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\UE4_AMVRGE\Intermediate\Build\Win64\UE4_AMVRGEEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Users\Mordecai\Dev\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\UE4_AMVRGE\Intermediate\Build\Win64\UE4Editor\Development\UE4_AMVRGE\UE4_AMVRGE.cpp.obj"
+"D:\Users\Mordecai\Dev\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\UE4_AMVRGE\Intermediate\Build\Win64\UE4Editor\Development\UE4_AMVRGE\UE4_AMVRGEGameModeBase.cpp.obj"
+"D:\Users\Mordecai\Dev\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\UE4_AMVRGE\Intermediate\Build\Win64\UE4Editor\Development\UE4_AMVRGE\UE4_AMVRGE.init.gen.cpp.obj"
+"D:\Users\Mordecai\Dev\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\UE4_AMVRGE\Intermediate\Build\Win64\UE4Editor\Development\UE4_AMVRGE\UE4_AMVRGEGameModeBase.gen.cpp.obj"
+"D:\Users\Mordecai\Dev\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\UE4_AMVRGE\Intermediate\Build\Win64\UE4Editor\Development\UE4_AMVRGE\Default.rc2.res"
+/OUT:"D:\Users\Mordecai\Dev\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\UE4_AMVRGE\Intermediate\Build\Win64\UE4Editor\Development\UE4_AMVRGE\UE4Editor-UE4_AMVRGE.lib"
+/INCLUDE:IMPLEMENT_MODULE_UE4_AMVRGE
