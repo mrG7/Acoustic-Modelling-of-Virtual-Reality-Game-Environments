@@ -1,6 +1,6 @@
 # Acoustic-Modeling-of-Virtual-Reality-Game-Environments
 
-### A Graduate research project based on the modeling of acoustic spaces within virtual reality environments within the Unreal Engine
+### A Graduate research/software development project based on the modeling of acoustic spaces within virtual reality environments within the Unreal Engine
 
 ### Author: Andrew Littleton
 
