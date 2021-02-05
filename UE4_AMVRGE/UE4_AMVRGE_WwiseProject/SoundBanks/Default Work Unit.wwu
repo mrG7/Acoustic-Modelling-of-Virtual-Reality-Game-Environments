@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4B79BFF9-F740-4B0F-A8D9-DE63224F77D2}" SchemaVersion="97">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{4B79BFF9-F740-4B0F-A8D9-DE63224F77D2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4B79BFF9-F740-4B0F-A8D9-DE63224F77D2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MAIN" ID="{D6FEC31B-47FB-4736-A8A8-59B1C3A3661F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D62F2B-DCFD-4D2A-9C80-66B428E8FBCA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gunshot" ID="{AF346266-BA85-48C9-9031-809BA2152DA8}" WorkUnitID="{A43C4A08-3E17-4DDE-A030-FC340EC4F80D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Reflect_Bus" ID="{0E931388-80DF-4D40-89DD-52E05C9A7C95}" WorkUnitID="{F1D62F2B-DCFD-4D2A-9C80-66B428E8FBCA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

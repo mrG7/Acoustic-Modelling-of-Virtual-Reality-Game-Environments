@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1287408361	Gunshot			\Default Work Unit\Gunshot	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	476818735	Reflect_Bus			\Default Work Unit\Master Audio Bus\Reflect_Bus	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	538506194	Weapon Gun Shot Gun 12 Gauage Single Shot Interior Shooting Range 03	D:\Users\Mordecai\Dev\Acoustic-Modelling-of-Virtual-Reality-Game-Environments\UE4_AMVRGE\UE4_AMVRGE_WwiseProject\.cache\Mac\SFX\Weapon Gun Shot Gun 12 Gauage Single Shot Interior Shooting Range 03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon Gun Shot Gun 12 Gauage Single Shot Interior Shooting Range 03		351296
+
