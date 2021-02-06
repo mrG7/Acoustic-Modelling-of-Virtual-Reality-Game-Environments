@@ -12,11 +12,7 @@ description: (Working)
 
 ### Diagrams
 
-
-
 ## Unreal Engine 4
 
 ### Level Geometry
-
-
 

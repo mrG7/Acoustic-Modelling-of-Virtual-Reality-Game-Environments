@@ -7,5 +7,3 @@
 * Projects created
 * Unreal Engine 4 and Wwise integration complete
 
-
-

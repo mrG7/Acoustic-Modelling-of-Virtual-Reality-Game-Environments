@@ -8,9 +8,9 @@ The purpose of this plugin is to give game engine designers the ability to accur
 
 ### Wwise SDK and Unreal Engine GameObjects/Geometry
 
-The Wwise SDK will be used for plugin development using the Wwise Audio Engine. The plugin will be used as the medium between the physical environment of the game engine and the audio engine. It will render data given in timed windows based on geometric data provided by the Unreal Engine's physical models and audio design information provided by Wwise. Auxiliary bus volumes will be used to define the boundaries of the acoustic space and the UE4 actors with collisions enabled will be the reflection objects or sources. The UE4 in-engine camera will be the listener. 
+The Wwise SDK will be used for plugin development using the Wwise Audio Engine. The plugin will be used as the medium between the physical environment of the game engine and the audio engine. It will render data given in timed windows based on geometric data provided by the Unreal Engine's physical models and audio design information provided by Wwise. Auxiliary bus volumes will be used to define the boundaries of the acoustic space and the UE4 actors with collisions enabled will be the reflection objects or sources. The UE4 in-engine camera will be the listener.
 
-UE4 is the primary engine the Wwise plugin will be tested and deployed in. The Unreal Engine will handle graphics processing, environment design, and the Wwise integration itself. Virtual Reality building and the preview will also be deployed through the engine. While the plugin and Wwise will handle all audio-related processing and calculations, information from the engine's geometry data and any other game engine related parameters that are required. 
+UE4 is the primary engine the Wwise plugin will be tested and deployed in. The Unreal Engine will handle graphics processing, environment design, and the Wwise integration itself. Virtual Reality building and the preview will also be deployed through the engine. While the plugin and Wwise will handle all audio-related processing and calculations, information from the engine's geometry data and any other game engine related parameters that are required.
 
 ## Acoustic Calculations and Modeling Techniques
 
@@ -49,7 +49,7 @@ The core of this project is the ability for accurate acoustic calculations to be
   * The regions of space within with a sound wave propagates
   * Though not an adjustable parameter, is helpful in determining parts of where a sound is within a space
 
-Modeling will be done using raycasting from a sound source in a spherical pattern. Accuracy can be adjusted to produce any number of rays. Performance metrics will be taken per ray cast to determine resources required for each accuracy level.  Emission type will also be used to determine the nature of the reflected sound \(point source, line source, impeded variations of the aforementioned\).
+Modeling will be done using raycasting from a sound source in a spherical pattern. Accuracy can be adjusted to produce any number of rays. Performance metrics will be taken per ray cast to determine resources required for each accuracy level. Emission type will also be used to determine the nature of the reflected sound \(point source, line source, impeded variations of the aforementioned\).
 
 ## Binaural Listening Considerations
 
@@ -62,9 +62,5 @@ Modeling the acoustics of a space relative to a source is only important if a li
 
 This represents first-order ambisonics. Using the acoustic models, a designer can determine how a sound will be heard using binaural encoding techniques. This is done using the audio engine and will not be written into the project.
 
-Binaural perception is a common design technique within video games and is essentially mandatory for virtual reality environments. Binaural listening is determined using a Head-Related Transfer Function. This is used as a robust calculation for how a sound will be heard by the human ear more accurately.  
-
-
-
-
+Binaural perception is a common design technique within video games and is essentially mandatory for virtual reality environments. Binaural listening is determined using a Head-Related Transfer Function. This is used as a robust calculation for how a sound will be heard by the human ear more accurately.
 
