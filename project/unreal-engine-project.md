@@ -23,5 +23,15 @@ description: (Working)
 
 ### Level Geometry
 
-\[in development\]
+![Exterior Box Level with Emitter in view and Acoustic Portal outlined](../.gitbook/assets/exterior-box_lit-with-obstacle.png)
+
+![Brush Wireframe of Exterior View with prominent Acoustic Portal outline](../.gitbook/assets/close-up_brush-wireframe-with-acoustic-portal.png)
+
+![Interior Box with Emitter in view and Acoustic Portal outlined](../.gitbook/assets/interior-box_lit.png)
+
+![Wide Angle Brush Wireframe of entire space](../.gitbook/assets/wide-angle_brush-wireframe.png)
+
+![Top Down Brush Wireframe View](../.gitbook/assets/top-down_brush-wireframe.png)
+
+
 
