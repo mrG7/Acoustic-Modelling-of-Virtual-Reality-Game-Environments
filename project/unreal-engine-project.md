@@ -21,7 +21,7 @@ description: (Working)
 
 ## Unreal Engine 4
 
-### Level Geometry
+### Open Air-Obstacle-Building Level Geometry
 
 ![Exterior Box Level with Emitter in view and Acoustic Portal outlined](../.gitbook/assets/exterior-box_lit-with-obstacle.png)
 
@@ -33,5 +33,11 @@ description: (Working)
 
 ![Top Down Brush Wireframe View](../.gitbook/assets/top-down_brush-wireframe.png)
 
+### Building Interior-Multiroom Level Geometry
 
+\[in development\]
+
+### Building Interior-Hallway Separated Rooms Level Geometry
+
+\[in development\]
 
