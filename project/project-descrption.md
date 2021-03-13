@@ -51,7 +51,7 @@ The core of this project is the ability for accurate acoustic calculations to be
 
 Modeling will be done using raycasting from a sound source in a spherical pattern. Accuracy can be adjusted to produce any number of rays. Performance metrics will be taken per ray cast to determine resources required for each accuracy level.  Emission type will also be used to determine the nature of the reflected sound \(point source, line source, impeded variations of the aforementioned\).
 
-## Binaural Listening Considerations
+## Binaural Listening Considerations and 3 Dimensional Audio
 
 Modeling the acoustics of a space relative to a source is only important if a listener will be present to hear it. Binaural encoding is done using a minimum of 4 channel audio mixes representing:
 
@@ -60,9 +60,9 @@ Modeling the acoustics of a space relative to a source is only important if a li
 * Y-axis Perception: directional audio heard using a cardioid pattern facing infinity and negative infinity on the y-axis
 * Z-Axis Perception: directional audio heard using a cardioid pattern facing infinity and negative infinity on the z-axis
 
-This represents first-order ambisonics. Using the acoustic models, a designer can determine how a sound will be heard using binaural encoding techniques. This is done using the audio engine and will not be written into the project.
+This represents first-order ambisonics. Using the acoustic models, a designer can determine how a sound will be heard using binaural encoding techniques. This is done using the audio engine and will not be written into the project. Binaural perception is a common design technique within video games and is essentially mandatory for virtual reality environments. Binaural listening is determined using a Head-Related Transfer Function. This is used as a robust calculation for how a sound will be heard by the human ear more accurately.  
 
-Binaural perception is a common design technique within video games and is essentially mandatory for virtual reality environments. Binaural listening is determined using a Head-Related Transfer Function. This is used as a robust calculation for how a sound will be heard by the human ear more accurately.  
+Along with binaural audio decoding comes considerations and understanding of three dimensional audio representation. This is primarily focused on occlusion and how a wave travels through a gas medium. Eliminating the intricate details of the effects minute changes in air composition and temperature will affect a sound, wave propagation and and occlusion mechanics are still features of auditory perception that need to be understood. This project will consider these theoretically as they apply to acoustic models and HRTF.
 
 
 

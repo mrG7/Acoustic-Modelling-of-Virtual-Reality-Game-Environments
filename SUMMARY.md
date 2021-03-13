@@ -13,6 +13,7 @@
 
 * [Project Descrption](project/project-descrption.md)
 * [Unreal Engine and Wwise Details](project/unreal-engine-project.md)
+* [AMVRGE Plugin Usage/Process](project/amvrge-plugin-usage.md)
 
 ## Research
 
