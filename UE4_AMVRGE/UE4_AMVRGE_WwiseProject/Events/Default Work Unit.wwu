@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A43C4A08-3E17-4DDE-A030-FC340EC4F80D}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A43C4A08-3E17-4DDE-A030-FC340EC4F80D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A43C4A08-3E17-4DDE-A030-FC340EC4F80D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Gunshot" ID="{AF346266-BA85-48C9-9031-809BA2152DA8}">
+					<ChildrenList>
+						<Action Name="" ID="{14CB11B5-D69A-425B-B233-90EAC27ADC9E}" ShortID="1071310108">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Weapon Gun Shot Gun 12 Gauage Single Shot Interior Shooting Range 03" ID="{322480A3-2571-443F-A899-5E2FB0B95CCB}" WorkUnitID="{D27C65A3-A445-4947-A4E3-BB4352AED0BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
