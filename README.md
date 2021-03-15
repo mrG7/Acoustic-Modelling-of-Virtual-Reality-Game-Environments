@@ -10,6 +10,9 @@
 
 * Unreal Engine 4.25.3 \(Epic\)
 * Wwise 2019.2.6.7381 \(Audiokinetic\)
+* JUCE 6.07
+* IEM Open Source Ambisonics Plugin Suite
+  * requires fftw-3.3.9 for some plugins
 * C++
 * Visual Studio 2019
 
