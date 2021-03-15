@@ -10,6 +10,7 @@
 
 * Unreal Engine 4.25.3 \(Epic\)
 * Wwise 2019.2.6.7381 \(Audiokinetic\)
+* JUCE 6.07
 
 ## Branches
 
