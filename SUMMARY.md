@@ -17,5 +17,14 @@
 
 ## Research
 
+* [Audio and Virtual Reality](research/audio-and-virtual-reality.md)
 * [Spatial Acoustics](research/spatial-acoustics.md)
+* [Ambisonics](research/ambisonics.md)
+* [Reflection Raytracing and 3 Dimensional Audio](research/reflection-raytracing-and-3-dimensional-audio.md)
+
+## Development and Testing
+
+* [Standalone Plugin Development](development-and-testing/standalone-plugin-development.md)
+* [Wwise Plugin Development](development-and-testing/wwise-plugin-development.md)
+* [Plugin Testing](development-and-testing/plugin-testing.md)
 

@@ -49,9 +49,11 @@ Along with binaural audio decoding comes considerations and understanding of thr
 
 For the acoustic data that has been gathered to be heard effectively, an Effect plugin must be created. This plugin will be separate from the two audio engines and will handle the external data reads/writes. Data gathered will be reproduced as a CSV file and can be re-entered to the plugin to create the necessary acoustic effects. 
 
-The plugin builds on the IEM Ambisonics Plugin Suite \(their plugins build on the fftw source code thus it is included in the AMVRGE repository as a dependency\). These plugins take multichannel audio files and allow for ambisonic, binarual, or stereo output. Virtual reality audio and video games generally use the binaural output as means of applying the HRTF within a stereo speaker configuration. 
+The plugin builds on the IEM Ambisonics Plugin Suite \(their plugins build on the fftw-FastFourierTransform source code thus it is included in the AMVRGE repository as a dependency\). These plugins take multichannel audio files and allow for ambisonic, binarual, or stereo output. Virtual reality audio and video games generally use the binaural output as means of applying the HRTF within a stereo speaker configuration. 
 
-\[Subject to change\] Once integrated to the Wwise authoring tool, output from the AMVRGE plugin will need to be set up to be routed through the IEM Binaural Decoder plugin. Though it may be possible to render output from the AMVRGE plugin with the Binaural Decoding happening without user interaction, but this has yet to be tested. This will be determined by how Ambisonics are handled within Wwise.
+Upon being provided a spatialization model, then the plugin will then render audio using post-processing effects such as reverb and frequency band equalization. Reflections will also be calculated up to the order requested by the model.
+
+\[Subject to change\] Once integrated into the Wwise authoring tool, the output from the AMVRGE plugin will need to be set up to be routed through the IEM Binaural Decoder plugin. Though it may be possible to render output from the AMVRGE plugin with the Binaural Decoding happening without user interaction, but this has yet to be tested. This will be determined by how Ambisonics are handled within Wwise.
 
 ## Wwise Plugin Development
 

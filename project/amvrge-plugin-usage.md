@@ -1,6 +1,6 @@
 # AMVRGE Plugin Usage/Process
 
-The AMVRGE plugin will work in both directions. This means that an acoustic model can be applied to any given spatial acoustic volume or that the plugin will generate an acoustic model of the spatial volume it occupies. The ideal workflow would be to gather a model then apply the model afterwards given the information by the model received.
+The AMVRGE plugin will work in both directions. This means that an acoustic model can be applied to any given spatial acoustic volume or that the plugin will generate an acoustic model of the spatial volume it occupies. The ideal workflow would be to gather a model then apply the model afterward given the information by the model received.
 
 ## Retrieve Acoustic Model
 
@@ -38,7 +38,13 @@ The acoustic model will capture data from a singular frame of audio playback and
 
 ## Apply a Provided Acoustic Model
 
-Acoustic Models will be provided using the WWise Authoring Tool as a plugin window. Necessary parameters will be manipulations to simulate different acoustic treatments and adjustments. Those parameters included:
+### Standalone
+
+The standalone AMVRGE plugin will require an acoustic model to be provided manually. This will normally be done with a CSV file that includes all necessary 
+
+### Wwise/Unreal Engine 4
+
+Acoustic Models will normally be provided using the WWise Authoring Tool as a plugin window. Necessary parameters will be manipulations to simulate different acoustic treatments and adjustments. Those parameters included:
 
 * Octave Band Absorption Values 
   * Connected to Acoustic Texture
@@ -46,5 +52,7 @@ Acoustic Models will be provided using the WWise Authoring Tool as a plugin wind
   * 0 being a perfect reflector
   * 1 being a perfect absorber
 
-Application of an acoustic model is primarily done with objects of varying acoustic textures in a space. 
+Application of an acoustic model is primarily done with objects of varying acoustic textures in a space. For spatialization to be done, information within the Unreal Engine, using AkSpatialAudioVolumes and textures provided within the volume, will dynamically be passed to the AMVRGE plugin so a manually designed acoustic model is not required in this case.
+
+
 
